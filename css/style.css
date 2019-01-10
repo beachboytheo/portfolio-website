@@ -9,8 +9,10 @@ Text Color (black): black;
 */
 body {
   font-family: 'Open Sans', Arial;
-  font-size: 16px; /* Sets the font size to 16px */
-  line-height: 1.6; /* Sets the line-height to 1.6 */
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 */
 }
 
 h1 {
@@ -24,13 +26,16 @@ h2 {
 h3 {
   font-size: 18px;
 }
+
 a {
   color: #18c0d6;
 }
 
 a:hover {
-  text-decoration: none; /* No underlining when hovering over a link */
+  text-decoration: none;
+  /* No underlining when hovering over a link */
 }
+
 a:visited {
   /* visited link */
   color: #c0c0c0;
@@ -49,23 +54,27 @@ a:focus {
 
 button {
   /* overwrite browser defaults */
-  border: none; /* reset the border */
-  font-family: inherit; /* takes the font from the outer container */
-
+  border: none;
+  /* reset the border */
+  font-family: inherit;
+  /* takes the font from the outer container */
   /* style button */
   background-color: #41c4dd;
   color: white !important;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #18c0d6; /* width of the border, type, color */
+  border-bottom: 2px solid #18c0d6;
+  /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
 button:hover,
 button:focus {
-  cursor: pointer; /* let's the mouse appear as hand when hovering over the button */
-  opacity: 0.8; /* Reduces the opactiy of the button to 80% */
+  cursor: pointer;
+  /* let's the mouse appear as hand when hovering over the button */
+  opacity: 0.8;
+  /* Reduces the opactiy of the button to 80% */
 }
 
 <button class="button-secondary">Secondary Button</button>
