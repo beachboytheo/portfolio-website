@@ -11,58 +11,51 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="<link href=" https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <!--Add the HTML5 <header></header> element -->
-  <header>
-    <!--Create a navigation using the HTML5 tag <nav></nav> -->
-    <nav>
-      <p align="right">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </p>
-    </nav>
-    <img src="img/cool santa.svg" alt="Santa in Florida" />
-  </header>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <p align="right">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </p>
+      </nav>
+      <img src="img/cool santa.svg" alt="Santa in Florida" />
+    </header>
 
-  <div>
-    <h1>Hi, my name is Steve. <span>Welcome to my portfolio site!</span></h1>
-  </div>
-
-  <br>
-  <br>
-  <div>
-    <!--this will be the container that “contains” the 4 columns-->
     <div>
-      <!-- this will be the first column-->
-      <img src="img/project image 1.png" alt="Work Sample 1" border="1">
-      <h2>Work Sample 1</h2>
-    </div><!-- this will end the first column-->
+      <h1>Hi, my name is Steve. <span>Welcome to my portfolio site!</span></h1>
+    </div>
     <br>
     <br>
-    <div>
-      <!-- this will be the second column-->
-      <img src="img/project image 2.png" alt="Work Sample 2" border="1">
-      <h2>Work Sample 2</h2>
-    </div><!-- this will end the second column-->
-    <br>
-    <br>
-    <div>
-      <!-- this will be the third column-->
-      <img src="img/project image 3.png" alt="Work Sample 3" border="1">
-      <h2>Work Sample 3</h2>
-    </div><!-- this will end the third column-->
-    <br>
-    <br>
-    <div>
-      <!-- this will be the fourth column-->
-      <img src="img/project image 4.png" alt="Work Sample 4" border="1">
-      <h2>Work Sample 4</h2>
-    </div><!-- this will end the fourth column-->
-  </div><!-- this will close the container-->
+      <!-- this will be the container that “contains” the 4 columns -->
+      <div>
+        <div class="columns-container">
+        <div class="column-4">
+          <!-- this will be the first column -->
+          <img src="img/project image 1.png" alt="Work Sample 1" border="1">
+          <h2>Work Sample 1</h2>
+        </div><!-- this will end the first column -->
+          <div class="column-4">
+            <!-- this will be the second column -->
+            <img src="img/project image 2.png" alt="Work Sample 2" border="1">
+            <h2>Work Sample 2</h2>
+          </div><!-- this will end the second column -->
+          <div class="column-4">
+            <!-- this will be the third column -->
+              <img src="img/project image 3.png" alt="Work Sample 3" border="1">
+              <h2>Work Sample 3</h2>
+            </div><!-- this will end the third column -->
+            <div class="column-4">
+            <!-- this will be the fourth column -->
+                <img src="img/project image 4.png" alt="Work Sample 4" border="1">
+                <h2>Work Sample 4</h2>
+              </div><!-- this will end the fourth column -->
+              </div><!-- this will close the container -->
+          </div>
 </body>
-
-
 </html>
