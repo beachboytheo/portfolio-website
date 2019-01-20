@@ -140,3 +140,7 @@ margin-right: 0;
 .column-4:nth-child(2) {
 margin-right: 0;
 }
+
+.column-4 img {
+    width: 100%
+}
