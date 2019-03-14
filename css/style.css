@@ -60,7 +60,7 @@ button, .button {
   font-family: inherit;
   /* takes the font from the outer container */
   /* style button */
-  background-color: #41c4dd;
+  background-color: #1b8195;
   color: white !important;
   text-decoration: none;
   padding: 10px;
@@ -90,7 +90,7 @@ button:focus {
 
 .columns-container {
   font-size: 0;
-  margin-left: 1%
+  margin-left: 1%;
 }
 
 .column-4 {
@@ -114,6 +114,8 @@ button:focus {
 .column-4:last-child {
 margin-right: 0;
 }
+
+img { border: 0; }
 
 @media all and (max-width: 500px) {
   .logo {
@@ -223,7 +225,7 @@ div.nav-container a
 
 .blue
 {
-    background: #2196f3;
+    background: #0b79d0;
 }
 
 
